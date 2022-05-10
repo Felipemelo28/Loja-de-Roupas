@@ -1,0 +1,132 @@
+/*Limpar formatações padrão*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: 'Poopins', Helvetica, sans-serif;
+	background: #C8E0F4;
+}
+
+/*
+**** Layout ****
+*/
+#area-cabecalho {
+	background: #F2F2F2;
+	padding: 15px;
+}
+
+#area-logo {
+	text-align: right;
+	padding: 20px;
+	color: black;
+	
+}
+
+#area-menu {
+	text-align: right;
+}
+
+#area-principal {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#area-lateral {
+	background: #9DD1F1;
+}
+
+#area-lateral1 {
+	background: #9DD1F1;
+}
+
+#area-postagens {
+	width: 660px;
+	float: left;
+}
+
+#area-lateral {
+	width: 260px;
+	float: right;
+	position: relative;
+	left: 15px;
+}
+
+#area-lateral1 {
+	width: 260px;
+	float: right;
+}
+
+.postagem {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: #F2F2F2;
+}
+
+#rodape {
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #F2F2F2;
+}
+
+/*
+**** Formatação do menu ****
+*/
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #1C1C1C;
+}
+
+a:hover {
+	color: #1C1C1C;
+	background: white;
+	text-decoration: underline;
+
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+	color: #1C1C1C;
+	padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
+	color: #1C1C1C;
+	background: white;
+	text-decoration: none;
+}
+
+/**** Formatação em geral ****/
+h1 {
+	color: #C8E0F4;
+	font-size: 2.5em;
+}
+
+h2 {
+	color: #0D2534;
+}
+
+.branco {
+	color: #424242;
+}
+
+.data-postagem {
+	font-size: 0.8em;
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+
+
+
+
+
